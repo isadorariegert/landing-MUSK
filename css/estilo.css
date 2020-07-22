@@ -1,0 +1,83 @@
+
+h2 {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+p{
+    color: white;
+    font-size: larger;
+}
+.logo {
+    width: 4em;
+
+    align-content: center;
+}
+
+.header {
+    background-color: #31124fa8;
+    height: 5em;
+    align-content: center;
+}
+
+.categorias {
+    margin-left: 2rem;
+    
+}
+
+.input-group{
+    padding: 1%;
+    margin-top: 4rem;
+}
+
+label{
+    align-items: center;
+    margin-left: 16%;
+    margin-top: 3%;
+}
+
+.card{
+    margin-right: 5%;
+}
+
+.promoter {
+    margin-top: 10%;
+    border-radius: 100px;
+    margin-left: 15%;
+    width: 60%;
+    text-align: center;
+    
+}
+
+.jumbotron {
+    background-color: #31124ffa;
+}
+
+#logofim {
+    width: 85%;
+}
+
+.icones {
+    text-align: center;
+    padding: 0.5%;
+    background-color: rgba(255, 255, 255, 0.07);
+}
+
+.txt {
+    margin-top: 3%;
+}
+
+.imagem {
+    background: url('../img/retangulo.png');
+    background-repeat: no-repeat;
+}
+
+.texto {
+    position: absolute;
+    color:#fff;
+    text-align: center;
+    top: 100px;
+    width: 250px;
+    line-height: 30px;
+    height: 30px;
+}
