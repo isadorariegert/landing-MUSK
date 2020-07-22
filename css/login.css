@@ -45,27 +45,39 @@
 .titulo {
     text-align: center;
     font-family: 'Bai Jamjuree', sans-serif;
+    margin-bottom: 5%;
 }
 
 .alert {    
     width: 65%;
-
     text-align: center;
     margin-top: 3%;
-    margin-left: 23%;
+    margin-left: 20%;
+
     background-color: rgba(48, 18, 79, 0.45);
     color: white;
     font-size: larger;
+}
+
+.input{
+    width: 70%;
+    margin-left: 17%;
+    margin-top: 10%;
+    margin-bottom: 15%;
+}
+
+#input1{
+    margin-top: 5%;
 }
 
 .btn {
     background-color:  #F5404C;
     border-radius: 30px;
     color: whitesmoke;
-    width: 10rem;
-
+    width: 50%;
+    height: 110%;
 }
 .bt{
-    text-align: right;
+    text-align: center;
 }
 
