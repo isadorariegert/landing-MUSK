@@ -1,0 +1,7 @@
+.actions{
+    position: relative;
+    bottom: 0;
+    height: 120px;
+    background: url("../img/Component47.png") no-repeat center;
+    cursor: pointer;
+}
