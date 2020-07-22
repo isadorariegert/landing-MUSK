@@ -29,6 +29,23 @@ p{
     align-content: center;
 }
 
+.header a {
+    color: #fff;
+    padding: 0 1rem;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.headerButton{
+    background: #F5404C;
+    border: 1px solid #F5404C;
+    border-radius: 15px;
+}
+
 .stiky{
     background-color: rgba(48, 18, 79, 1);
     height: 4em;
