@@ -86,10 +86,11 @@ h2 {
 }
 
 .howFunctionItem{
-    display: flex;
-    flex-direction: column;
     margin-top: 20px;
     text-align: center;
+}
+.howFunctionItem img{
+    margin-bottom: 30px;
 }
 
 .wantSection{
@@ -168,12 +169,20 @@ label{
     
 }
 
-.jumbotron {
+.footer {
+    color: #fff;
     background-color: #31124ffa;
+    padding: 40px;
+}
+
+.footerLogo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #logofim {
-    width: 85%;
+    width: 50%;
 }
 
 .icones {
