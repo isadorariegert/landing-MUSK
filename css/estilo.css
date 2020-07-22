@@ -14,10 +14,6 @@ h2 {
     margin-bottom: 5%;
 }
 
-p{
-    color: white;
-    font-size: larger;
-}
 .logo {
     width: 4em;
 
@@ -80,9 +76,22 @@ p{
     align-items: center;
 }
 
-.containerItem h1, p{
+.containerItem h1,.containerItem p{
     margin-left: 50px;
 }
+
+.howFunction{
+    margin: 40px 10px 50px 30px;
+    box-sizing: border-box;
+}
+
+.howFunctionItem{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    text-align: center;
+}
+
 
 .categorias {
     margin-left: 2rem;
