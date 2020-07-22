@@ -160,13 +160,24 @@ label{
     margin-right: 5%;
 }
 
-.promoter {
-    margin-top: 10%;
-    border-radius: 100px;
-    margin-left: 15%;
-    width: 60%;
+.promoters>div{
+    margin-top: 50px;
+    padding: 0;
     text-align: center;
-    
+}
+
+.promoterLabel{
+    text-align: center;
+    font-weight: bold;
+}
+
+.promoterButton{
+    background: #F5404C;
+    border-radius: 22.5px;
+    padding: 10px 30px;
+    color: #fff;
+    font-weight: bold;
+    margin: 50px auto;
 }
 
 .footer {
