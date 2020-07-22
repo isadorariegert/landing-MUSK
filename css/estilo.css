@@ -1,8 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;700&display=swap');
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Bai Jamjuree', sans-serif;
 }
+
 
 
 h2 {
@@ -24,7 +28,7 @@ p{
     position: fixed;
     width: 100%;
     z-index: 1;
-    background-color: rgba(48, 18, 79, 0.67);
+    background-color: rgba(48, 18, 79, 0.45);
     height: 5em;
     align-content: center;
 }
@@ -49,6 +53,35 @@ p{
 .stiky{
     background-color: rgba(48, 18, 79, 1);
     height: 4em;
+}
+
+.containerMain{
+    background: linear-gradient(180deg, #30124F 0%, rgba(48, 18, 79, 0.60) 100%);
+    width: calc(100vw-5px);
+    height: 100vh;
+}
+
+.containerMain:after{
+    content: "";
+    position: absolute;
+    z-index: -1;
+    background: url("../img/main.png") no-repeat top;
+    background-size: cover;
+    width: 99vw;
+    height: 100vh;
+    opacity: 0.8;
+}
+
+.containerItem{
+    display: flex;
+    color: #fff;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.containerItem h1, p{
+    margin-left: 50px;
 }
 
 .categorias {
